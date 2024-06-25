@@ -1,0 +1,35 @@
+
+
+
+body {
+    background-image: url('https://media.admagazine.com/photos/618a679fa9f7fab6f0622f14/master/w_1600%2Cc_limit/64213.jpg');
+width: 100%;
+height: 100%;
+}
+
+h1 {
+    padding-left: 25px;
+    font-size: 30px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+button {
+    font-size: 20px;
+    background: linear-gradient(170deg, #fd95ab, #a0567f);
+padding: 15px;
+border-radius: 15px;
+transition: all .5s linear;
+}
+
+button:hover {
+    background: linear-gradient(230deg, #fd95ab, #a0567f);
+    transition: all .5s linear;
+    cursor: pointer;
+    scale: 1.1;
+    
+}
